@@ -1,5 +1,6 @@
 const { Item, User } = require('../models');
 const { Op } = require('sequelize');
+//testing
 
 // Get all items with optional search
 exports.getAllItems = async (req, res) => {
